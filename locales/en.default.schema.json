@@ -1,8 +1,8 @@
 {
-    "settings": {
-        "favicon": {
-            "name": "Favicon",
-            "label": "Select favicon image"
-        }
+  "settings": {
+    "favicon": {
+      "name": "Favicon",
+      "label": "Select favicon image"
     }
+  }
 }

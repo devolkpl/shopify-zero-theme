@@ -4,8 +4,8 @@
     "theme_name": "Shopify Zero Theme",
     "theme_version": "1.0.0",
     "theme_author": "Devolk",
-    "theme_documentation_url": "https://devolk.co/kurs-shopify/wprowadzenie/",
-    "theme_support_url": "https://devolk.co/o-mnie/"
+    "theme_documentation_url": "https:\/\/devolk.co\/kurs-shopify\/wprowadzenie\/",
+    "theme_support_url": "https:\/\/devolk.co\/o-mnie\/"
   },
   {
     "name": "t:settings.favicon.name",
@@ -17,4 +17,4 @@
       }
     ]
   }
-]
+] 
