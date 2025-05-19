@@ -1,0 +1,19 @@
+{
+  "action": {
+    "open": "Open",
+    "close": "Close",
+    "log_in": "Log in",
+    "log_out": "Log out",
+    "register": "Register",
+    "account": "Account",
+    "cart": "Cart"
+  },
+  "form": {
+    "required": "This field is required",
+    "invalid_email": "Please enter a valid email address."
+  },
+  "404": {
+    "title": "404 Page Not Found",
+    "text": "The page you requested does not exist."
+  }
+}

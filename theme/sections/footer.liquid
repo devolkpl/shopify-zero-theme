@@ -1,0 +1,22 @@
+<div class="container">
+  <nav>
+    {% for link in linklists.footer.links %}
+      <a href="{{ link.url }}">
+        {{ link.title }}
+      </a>
+    {% endfor %}
+  </nav>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.footer.name",
+  "tag": "footer",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.footer.settings.paragraph"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,16 @@
+$xs: "only screen and (min-width: 360px)";
+$xs-down: "only screen and (max-width: 359px)";
+$sm: "only screen and (min-width: 576px)";
+$sm-down: "only screen and (max-width: 575px)";
+$md: "only screen and (min-width: 768px)";
+$md-down: "only screen and (max-width: 767px)";
+$lg: "only screen and (min-width: 992px)";
+$lg-down: "only screen and (max-width: 991px)";
+$xl: "only screen and (min-width: 1200px)"; 
+$xl-down: "only screen and (max-width: 1199px)"; 
+$xxl: "only screen and (min-width: 1400px)";
+$xxl-down: "only screen and (max-width: 1399px)";
+$xxxl: "only screen and (min-width: 1600px)";
+$xxxxl: "only screen and (min-width: 1900px)";
+$touch: "(pointer: coarse)";
+$mouse: "(pointer: fine)";

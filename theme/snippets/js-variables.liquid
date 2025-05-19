@@ -1,0 +1,20 @@
+<script>
+    window.shopUrl = "{{ request.origin }}";
+    window.moneyFormat = "{{ shop.money_format }}";
+    window.routes = {
+        root_url: "{{ routes.root_url }}",
+        cart_add_url: "{{ routes.cart_add_url }}",
+        cart_change_url: "{{ routes.cart_change_url }}",
+        cart_update_url: "{{ routes.cart_update_url }}",
+        cart_url: "{{ routes.cart_url }}",
+        search_url: "{{ routes.search_url }}",
+        predictive_search_url: "{{ routes.predictive_search_url }}",
+        product_recommendations_url: "{{ routes.product_recommendations_url }}"
+    };
+    window.i18 = {
+        open: "{{ 'action.open' | t }}",
+        close: "{{ 'action.close' | t }}",
+        required: "{{ 'form.required' | t }}",
+        invalid_email: "{{ 'form.invalid_email' | t }}"
+    };
+</script>

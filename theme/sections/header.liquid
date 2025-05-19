@@ -1,0 +1,18 @@
+<div class="container">
+  <a href="{{ routes.root_url }}">
+    {{ shop.name }}
+  </a>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.header.name",
+  "tag": "header",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.header.settings.paragraph"
+    }
+  ]
+}
+{% endschema %}
