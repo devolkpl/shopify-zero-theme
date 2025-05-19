@@ -79,7 +79,7 @@ src(["styles/critical.scss"], {sourcemaps: false})
 	.on("error", error)
 	.pipe(postcss([autoprefixer({grid: true}), cssnano()]))
 	.on("error", error)
-	.pipe(rename('critical.css.liquid'))
+	.pipe(rename('css-critical.liquid'))
 	.pipe(dest(__.snippets, {sourcemaps: false}))
   
   done()
